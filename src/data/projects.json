@@ -1,0 +1,16 @@
+[
+    {
+        "title": "To Do List",
+        "description": "This project is a simple To-Do List app built using React, Node, Express, and MongoDB.",
+        "skills": ["React", "Node", "Express", "MongoDB"],
+        "demo": "http://example.com/demo",
+        "source": "http://example.com/source"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website to showcase my projects and skills.",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "http://example.com/portfolio",
+        "source": "http://github.com/portfolio"
+    }
+]

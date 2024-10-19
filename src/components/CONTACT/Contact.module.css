@@ -1,0 +1,35 @@
+@import url('../../vars.css');
+.contactSection {
+    padding: 50px;
+    background: linear-gradient(180deg, #576cbc 0%, #19376d 100%);
+    margin-bottom: 5px;
+  }
+  
+  .contactTitle {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contactList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contactLink {
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .contactLink:hover {
+    text-decoration: underline; 
+  }
+  
+  .contactLink svg {
+    margin-right: 10px; 
+  }
+  

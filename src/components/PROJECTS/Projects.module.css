@@ -1,0 +1,46 @@
+@import url('../../vars.css');
+/* Projects.module.css */
+.projectsSection {
+  padding: 40px;
+  background-color: var(--color-bg); 
+  margin-top: 16%;
+  min-height: 100vh;
+  padding-top: 130px;
+}
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusted for larger cards */
+  gap: 20px;
+  padding: 10px;
+  height: auto;
+  overflow: hidden;
+}
+
+.titre {
+  color: #fff; 
+  letter-spacing: 1.75px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-family: var(--font-robot);
+}
+@media (max-width: 830px) {
+  .projectsContainer {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    
+  }
+  
+  .projectsSection {
+    margin-top: 10%;
+    padding: 20px;
+    padding-top: 130px;
+
+  }
+
+  .contactSection {
+    margin-top: 40px; 
+  }
+}

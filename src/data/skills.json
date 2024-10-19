@@ -1,0 +1,9 @@
+[
+    { "title": "HTML", "icon": "FaHtml5" },
+    { "title": "CSS", "icon": "FaCss3Alt" },
+    { "title": "JavaScript", "icon": "FaJs" },
+    { "title": "React", "icon": "FaReact" },
+    { "title": "Node.js", "icon": "FaNodeJs" },
+    { "title": "Express.js", "icon": "SiExpress" },
+    { "title": "MongoDB", "icon": "SiMongodb" }
+]

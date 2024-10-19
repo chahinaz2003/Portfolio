@@ -1,0 +1,17 @@
+:root{
+    /*definie des varaibles qui va l'utilise */
+
+    /*colors*/
+    --color-text:#fff;
+    --color-primary:#576cbc;
+    --color-secondary:#19376d;
+    --color-dark:#0b2447;
+    --color-bg:#010f22;
+
+    /*#04152d*/
+
+    /*fonts*/
+
+    --font-robot:"Roboto";
+
+}
