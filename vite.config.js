@@ -3,18 +3,18 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  root: 'src', 
+  root: '.',  
   plugins: [react()],
   css: {
     modules: {
-      localsConvention: "camelCase",
+      localsConvention: 'camelCase',
     },
   },
   build: {
-    outDir: '../dist', 
+    outDir: 'dist',  
     rollupOptions: {
       input: {
-        main: 'index.html', 
+        main: 'index.html',  
       },
     },
   },
