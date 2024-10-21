@@ -8,5 +8,13 @@ export default defineConfig({
     modules:{
       localsConvention:"camelCase",
     }
-  }
+  },
+  build: {
+    outDir: 'dist',  // Indique le dossier de sortie
+    rollupOptions: {
+      input: {
+        main: 'index.html',  // Assure-toi que Vite utilise ton index.html
+      },
+    },
+  },
 })
